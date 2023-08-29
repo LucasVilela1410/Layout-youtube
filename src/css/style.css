@@ -1,0 +1,81 @@
+
+.container{
+    display: grid;
+    grid: "conteudo-principal propaganda" 80px
+          "conteudo-principal sugeridos"
+          /543px 280px;
+    grid-column-gap: 17px;
+    background-color: #F7F7F7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteudo-principal{
+    grid-area: conteudo-principal;
+
+    margin: 38px 0 0 35px;
+}
+
+.conteudo-principal .video-e-descricao{
+    font-size: 16px;
+    font-weight: 300;
+    width: 538px;
+
+}
+
+.conteudo-principal .video-e-descricao .titulo-principal{
+    font-size: 18px;
+    font-weight: 700;
+
+    margin: 12px 0 7px ;
+}
+
+.conteudo-principal .video-e-descricao .visualizacoes{
+    font-size: 14px;
+
+    margin-bottom: 9px;
+}
+
+.propaganda{
+    width: 280px;
+    height: 56px;
+
+    grid-area: propaganda;
+    margin: 38px 35px;
+}
+
+.propaganda img{
+    width: 280px;
+}
+
+.sugeridos{
+    grid-area: sugeridos;
+
+    margin: 38px 35px;
+}
+
+.sugeridos .videos-sugeridos{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.sugeridos .videos-sugeridos img{
+    width: 101px;
+    height: 71px;
+    margin-right: 5px;
+}
+
+.sugeridos .videos-sugeridos .descricao span{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 11px;
+    font-weight: 300;
+    margin-bottom: 5px; 
+}
+
+.sugeridos .videos-sugeridos .descricao .titulo{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 7px 0;
+    width: 180px;
+}
